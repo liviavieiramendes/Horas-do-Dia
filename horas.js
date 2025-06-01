@@ -5,7 +5,9 @@ function calcular() {
     var hora = data.getHours()
     var minutos = data.getMinutes()
 
-    msg.innerHTML = `Agora são ${hora} horas.`
+    if (minutos < 10){
+        minutos = "0" + minutos
+    }
 
     if (hora >= 0 && hora < 12) {
         msg.innerHTML = `Bom dia! Agora são ${hora}:${minutos} horas.`
