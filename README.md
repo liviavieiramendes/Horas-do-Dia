@@ -1,3 +1,3 @@
-Esta página exibe automaticamente a hora de acesso, destacando os minutos e o período do dia (manhã, tarde ou noite).
+Este projeto exibe a hora atual no momento de acesso e altera o plano de fundo da página automaticamente. A mudança do visual acompanha os períodos de manhã, tarde e noite.
 
 Acesse a página [aqui](https://liviavieiramendes.github.io/Horas-do-Dia/).
